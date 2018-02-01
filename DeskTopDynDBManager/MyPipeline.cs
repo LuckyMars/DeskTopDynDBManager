@@ -15,6 +15,10 @@ namespace DeskTopDynDBManager
         /// </summary>
         public string Projects { get; set; }
 
+        public int LimitSize { get; set; } = -1;
+
+        public int SkipSize { get; set; } = -1;
+
     }
 
     public class SearchCondition
